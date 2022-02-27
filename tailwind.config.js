@@ -18,6 +18,7 @@ module.exports = {
         secondary: '#0b192d',
         terciary: '#0e0f13',
         quaternary: '#102219',
+        formbg: '#1b293b',
       }
     },
   },

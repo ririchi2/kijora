@@ -16,7 +16,7 @@ function App() {
       <CompaniesSection />
       <ExperienceSection />
       <FormSection />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
