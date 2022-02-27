@@ -3,6 +3,11 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
+    fontFamily: {
+      'Poppins-Regular': ['Poppins-Regular', 'serif'],
+      'Poppins-Medium': ['Poppins-Medium', 'serif'],
+      'Poppins-Bold': ['Poppins-Bold', 'serif'],
+    },
     screens: {
       'md': '547px',
       'lg': '768px',

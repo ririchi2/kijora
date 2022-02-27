@@ -3,7 +3,7 @@ import React from 'react'
 function CompaniesSection() {
     return (
         <div className='bg-white flex flex-col justify-evenly items-center h-screen'>
-            <div className='text-black font-bold'>
+            <div className='text-black font-bold font-Poppins-Medium'>
                 <p className='text-left text-4xl'>
                     Trusted by
                 </p>
