@@ -3,21 +3,21 @@ import React from 'react'
 
 function ImgSection() {
     return (
-        <div className='bg-terciary text-white h-screen relative'>
-            {/* <div className='h-32 bg-printed-terciary mb-5' /> */}
-            <div className='w-full h-1/6 bg-printed-terciary bg-center absolute top-0' />
-            <div className='w-full h-full flex flex-col justify-center items-center'>
-                <p className='mt-24 text-gray-500 font-Poppins-Regular'>Services</p>
-                <h1 className='text-white text-4xl font-bold w-1/2 my-5 font-Poppins-Medium'>Here's what we do</h1>
-                <div className='grid grid-cols-2 gap-4 w-1/2'>
-                    <div className='img col-span-2'>1</div>
+        <div className='relative h-screen text-white bg-terciary'>
+            {/* <div className='h-32 mb-5 bg-printed-terciary' /> */}
+            <div className='absolute top-0 w-full bg-center h-1/6 bg-printed-terciary' />
+            <div className='flex flex-col items-center justify-center w-full h-full sm:bg-primary'>
+                <p className='text-gray-500 mt-28 font-Poppins-Regular'>Services</p>
+                <h1 className='w-1/2 my-5 text-4xl font-bold text-center text-white font-Poppins-Medium'>Here's what we do</h1>
+                <div className='grid w-1/2 grid-cols-2 gap-4'>
+                    <div className='col-span-2 img'>1</div>
                     <div className='img'>2</div>
                     <div className='img'>3</div>
-                    <div className='img row-span-2'>4</div>
+                    <div className='row-span-2 img'>4</div>
                     <div className='img'>5</div>
                     <div className='img'>6</div>
-                    <div className='img col-span-2'>7</div>
-                    <div className='img col-span-2'>8</div>
+                    <div className='col-span-2 img'>7</div>
+                    <div className='col-span-2 img'>8</div>
                 </div>
             </div>
         </div>

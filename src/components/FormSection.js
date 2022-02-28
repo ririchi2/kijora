@@ -5,18 +5,18 @@ import ArrowRight from './icons/ArrowRight'
 
 function FormSection() {
     return (
-        <div className='bg-primary flex flex-col justify-evenly items-center h-screen'>
-            <div className='text-white font-bold w-1/2 h-4/5 flex flex-col justify-around'>
-                <div className='font-Poppins-Medium'>
-                    <p className='text-left text-4xl'>
+        <div className='flex flex-col items-center h-screen bg-primary justify-evenly'>
+            <div className='flex flex-col justify-around w-1/2 font-bold text-white h-4/5'>
+                <div className='my-4 font-Poppins-Medium'>
+                    <p className='text-4xl text-left'>
                         Let's do
                     </p>
-                    <p className='text-left text-4xl'>
+                    <p className='text-4xl text-left'>
                         something big
                     </p>
                 </div>
                 <div class="block font-Poppins-Regular">
-                    <form>
+                    <form method='POST' action=''>
                         <div class="grid grid-cols-2 gap-4">
                             <div class="form-group mb-6">
                                 <input type="text" class="
@@ -73,8 +73,8 @@ function FormSection() {
                                 placeholder="Message"
                             ></textarea>
                         </div>
-                        <div class="mb-6 text-left flex justify-between">
-                            <div className='flex justify-center items-center'>
+                        <div class="mb-6 text-left flex flex-col justify-center items-center md:flex-row md:justify-between">
+                            <div className='flex items-center justify-center'>
                                 <input type="checkbox"
                                     class="
                                 form-check-input
@@ -89,12 +89,11 @@ function FormSection() {
                                 mr-2
                                 cursor-pointer"
                                     id="exampleCheck87" />
-                                <label class="form-check-label inline-block text-white" for="exampleCheck87">Get a reply on Telegram</label>
-
+                                <label class="form-check-label inline-block text-white sm:text-sm shrink" for="exampleCheck87">Get a reply on Telegram</label>
                             </div>
-                            <div className='flex flex-row justify-end w-1/5'>
-                                <button type='submit' className='w-10 h-10 border-2 border-solid border-gray-300 rounded-full hover:border-blue-500'><PaperClip /></button>
-                                <button type='submit' className='w-10 h-10 border-2 border-solid border-gray-300 rounded-full hover:border-blue-500 ml-4'><ArrowRight /></button>
+                            <div className='flex flex-row justify-around w-1/2 m-4 md:w-1/4 md:justify-end'>
+                                <button type='submit' className='w-10 h-10 border-2 border-gray-300 border-solid rounded-full hover:border-blue-500 md:mx-4'><PaperClip /></button>
+                                <button type='submit' className='w-10 h-10 border-2 border-gray-300 border-solid rounded-full hover:border-blue-500'><ArrowRight /></button>
                             </div>
                         </div>
                     </form>
