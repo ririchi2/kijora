@@ -2,7 +2,7 @@ import React from 'react'
 
 function ExperienceSection() {
     return (
-        <div className='flex flex-col items-center justify-around h-screen bg-quaternary'>
+        <div className='flex flex-col items-center justify-around h-screen bg-gradient-to-br from-quaternary via-green-900 to-green-600'>
             <div className='flex flex-col w-1/2 font-bold text-white font-Poppins-Medium'>
                 <p className='text-4xl text-left'>
                     Backed by an
@@ -12,10 +12,10 @@ function ExperienceSection() {
                 </p>
             </div>
             <div className='grid w-1/2 grid-cols-2 gap-4 h-1/2'>
-                <div className='img'>1</div>
-                <div className='row-span-2 img'>2</div>
-                <div className='img'>3</div>
-                <div className='col-span-2 img'>4</div>
+                <div className='img'></div>
+                <div className='row-span-2 img'></div>
+                <div className='img'></div>
+                <div className='col-span-2 img'></div>
             </div>
         </div>
     )
