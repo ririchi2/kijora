@@ -2,7 +2,7 @@ import React from 'react'
 
 function ExperienceSection() {
     return (
-        <div className='flex flex-col items-center justify-around h-screen bg-gradient-to-br from-quaternary via-green-900 to-green-600'>
+        <div className='flex flex-col items-center justify-around h-screen bg-gradient-to-br from-quaternary via-green-900 to-green-800'>
             <div className='flex flex-col w-1/2 font-bold text-white font-Poppins-Medium'>
                 <p className='text-4xl text-left'>
                     Backed by an
