@@ -6,7 +6,7 @@ import ArrowRight from './icons/ArrowRight'
 function FormSection() {
     return (
         <div className='flex flex-col items-center h-screen bg-primary justify-evenly'>
-            <div className='flex flex-col justify-around w-1/2 font-bold text-white h-4/5'>
+            <div className='flex flex-col justify-around w-2/3 font-bold text-white md:w-1/2 h-4/5'>
                 <div className='my-4 font-Poppins-Medium'>
                     <p className='text-4xl text-left'>
                         Let's do

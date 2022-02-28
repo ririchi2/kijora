@@ -11,7 +11,7 @@ function ExperienceSection() {
                     amazing experience
                 </p>
             </div>
-            <div className='grid w-1/2 grid-cols-2 gap-4 h-1/2'>
+            <div className='grid w-2/3 grid-cols-2 gap-4 md:w-1/2 h-1/2'>
                 <div className='img'></div>
                 <div className='row-span-2 img'></div>
                 <div className='img'></div>
