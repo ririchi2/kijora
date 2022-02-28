@@ -9,7 +9,7 @@ function ImgSection() {
             <div className='flex flex-col items-center justify-center w-full h-full sm:bg-primary'>
                 <p className='text-gray-500 mt-28 font-Poppins-Regular'>Services</p>
                 <h1 className='w-1/2 my-5 text-4xl font-bold text-center text-white font-Poppins-Medium'>Here's what we do</h1>
-                <div className='grid w-1/2 grid-cols-2 gap-4'>
+                <div className='grid w-1/2 grid-cols-2 gap-4 h-1/2'>
                     <div className='col-span-2 img'>1</div>
                     <div className='img'>2</div>
                     <div className='img'>3</div>
